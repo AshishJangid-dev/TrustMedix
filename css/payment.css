@@ -1,0 +1,118 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+   
+    background-image: url('background.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+/* .logo{
+    height: 83px;
+    padding-left: 250px;
+} */
+
+.top{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+#title{
+    font-size: 70px;
+    text-decoration: underline;
+}
+
+.tags{
+    font-size: 25px;
+    text-decoration: underline;
+    color: black;
+    font-weight: 200;
+}
+
+
+
+.pay{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    width: 80%;
+    margin-left: 150px;
+    
+    border: solid black;
+}
+
+input{
+    height: 29px;
+}
+
+select{
+    height: 29px;
+    
+}
+
+
+
+
+#date{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80px;
+    width: auto;
+}
+
+
+
+p{
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.pay1{
+    height:100px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#pay2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70px;
+    width: 80%;
+}
+#pay3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70px;
+    width: 80%;
+}
+#pay4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 80%;
+}
+
+button{
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 90px;
+}
+
+#cvv{
+    
+}
